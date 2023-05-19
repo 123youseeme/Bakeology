@@ -1,0 +1,683 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #BEA6A0;
+}
+/*This is the nav bar*/
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #62463f;
+    padding: 5px;
+    z-index: 10000000000;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.6);
+}
+
+nav .nav-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1400;
+    background: #62463f;
+    margin: auto;
+}
+    
+.nav-content .nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-content .nav-links li{
+    background-color: #62463f;
+    list-style: none;
+    margin: 0 8px;
+}
+
+.nav-links li a{
+    font-size: 25px;
+    font-weight: 600;
+    font-weight: 600;
+    color: #d7dcec;
+    padding: 10px 20px;
+    font-family: 'ubuntu';
+    background-color: #62463f;
+}
+
+body, html {
+    height: 100%;
+}
+
+/*This is the homepage*/
+.hero-image1 { /* This is the hero image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("heroimage-bread.jpg");
+    margin: 147px 0 0 0;
+    height: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #d7dcec;
+    font-size: 70px;
+    font-family: 'Ubuntu';
+}
+
+.grid1-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #BEA6A0;
+    padding-left: 380px;
+    padding-right: 350px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.grid1-header {
+    font-size: 35px;
+    padding-top: 30px;
+}
+
+.grid1-image {
+    background-color: #88726D;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid1-text {
+    background-color: #BEA6A0;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 45px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 440px;
+    text-align: justify;
+}
+
+.grid1-blank {
+    background-color: #BEA6A0;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*This is the menu page*/
+* {box-sizing:border-box}
+
+/* This is the slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 200px;
+  border-style: solid;
+  border-width: 10px;
+  border-color: #88726D;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.grid2-container { 
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 300px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    background-color: #88726D;
+}
+
+.grid2-image {
+    background-color: #BEA6A0;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid2-text {
+    background-color: #88726D;
+    font-size: 20px;
+    color: #d7dcec;
+    font-family: 'Open Sans';
+    line-height: 45px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 440px;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.grid2-header {
+    font-size: 35px;
+    padding-top: 30px;
+    font-family: 'Open Sans'
+}
+
+.grid3-container { 
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 300px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #62463f;
+}
+
+.grid3-image {
+    background-color: #88726D;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid3-text {
+    background-color: #62463f;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    color: #d7dcec;
+    line-height: 45px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 440px;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.grid3-header {
+    font-size: 35px;
+    padding-top: 30px;
+    font-family: 'Open Sans'
+}
+
+.grid4-container { 
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 300px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #88726D;
+}
+
+.grid4-image {
+    background-color: #BEA6A0;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid4-text {
+    background-color: #88726D;
+    font-size: 20px;
+    color: #d7dcec;
+    font-family: 'Open Sans';
+    line-height: 45px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 440px;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.grid4-header {
+    font-size: 35px;
+    padding-top: 30px;
+    font-family: 'Open Sans'
+}
+
+/*this is the about us page*/
+/*This is the menu page*/
+* {box-sizing:border-box}
+
+/* This is the slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 200px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*this is the about us page*/
+.grid5-container { 
+    background-color: #BEA6A0;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 300px;
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 147px;
+}
+
+.grid5-image {
+    background-color: #88726D;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid5-text {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 440px;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.grid5-header {
+    font-size: 35px;
+    padding-top: 10px;
+    font-family: 'Open Sans'
+}
+
+.grid6-container { 
+    background-color: #88726D;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.grid6-image {
+    background-color: #62463f;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid6-text {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-left: 440px;
+    text-align: justify;
+}
+
+.grid6-header {
+    font-size: 35px;
+    padding-top: 10px;
+    font-family: 'Open Sans'
+}
+
+.grid7-container { 
+    background-color: #BEA6A0;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-right: 300px;
+    padding-left: 80px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.grid7-image {
+    background-color: #88726D;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid7-text {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 440px;
+    padding-top: 40px;
+    text-align: justify;
+}
+
+.grid7-header {
+    font-size: 35px;
+    padding-top: 10px;
+    font-family: 'Open Sans'
+}
+
+/*this is the contacts page*/
+.grid8-container { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #BEA6A0;
+    margin-top: 150px;
+    padding-left: 80px;
+    padding-top: 0px;
+}
+
+.grid8-header {
+    font-size: 50px;
+    font-family: 'ubuntu';
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-top: 85px;
+}
+
+.grid8-blank {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.grid8-text {
+    font-size: 30px;
+    font-family: 'ubuntu';
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 355px;
+    padding-top: 60px;
+}
+
+.grid9-container { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #88726D;  
+    margin-top: 70px;
+    padding-left: 80px;
+    padding-top: 0px;
+    color: #d7dcec;
+}
+
+.grid9-header {
+    font-size: 50px;
+    font-family: 'ubuntu';
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-top: 110px;
+}
+
+.grid9-blank {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.grid9-text {
+    font-size: 30px;
+    font-family: 'ubuntu';
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    padding-right: 200px;
+    padding-bottom: 60px;
+}
+
+.grid10-container { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #62463f;  
+    padding-left: 80px;
+    padding-top: 0px;
+    color: #d7dcec;
+}
+
+.grid10-header {
+    font-size: 50px;
+    font-family: 'ubuntu';
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-top: 100px;
+}
+
+.grid10-blank {
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 40px;
+}
+
+.grid10-text {
+    font-size: 30px;
+    font-family: 'ubuntu';
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-right: 120px;
+    padding-bottom: 80px;
+}
+
+/*this is the footer*/
+.footer-container { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #75816A;
+    padding-left: 80px;
+    height: 37vh;
+    color: #d7dcec;
+}
+
+.footer-logo {
+    background-color: #75816A;
+    font-size: 50px;
+    font-family: 'ubuntu';
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-top: 88px;
+}
+
+.footer-social {
+    background-color: #75816A;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+
+.footer-name {
+    background-color: #75816A;
+    font-size: 30px;
+    font-family: 'ubuntu';
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 355px;
+    padding-top: 90px;
+    color: black;
+}
+
+.footer-etc {
+    background-color: #75816A;
+    font-size: 20px;
+    font-family: 'Open Sans';
+    line-height: 40px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footer-blank {
+    background-color: #75816A;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 60px;
+    justify-content: center;
+    align-items: center;
+}
